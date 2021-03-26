@@ -1,5 +1,4 @@
 # TimeSeriesProject
-Predicting stock prices using deep learning
 #Time Series Forecasting: Stock price prediction
 
 Time series forecasting is a supervised learning problem where we try to predict the current stock price of a company/business by looking into the stock prices of the past few years. Here we re-frame our data in a way so that we are able to use standard machine learning algorithms on it. Since we are trying to predict a real value here, it is a regression problem. I used LSTM model architecture (deep learning) for doing this project.
