@@ -15,7 +15,7 @@ Time series forecasting is a supervised learning problem where we try to predict
 1. Here the data 'Last' column is separated out as a new data frame and is converted to a numpy array
 2. The data is then scaled (I have used MinMaxScaler, so the values will be within 0 and 1) (required step before feeding the data into an LSTM model)
 3. The data is then divided into the training and test data sets (I used a 0.7 - 0.3 split)
-4. Within the training data we need a x_train (features) and y_train (label), here we have the window size that determines how many previous days observations do we want the current stock price to look up to, I used a window size of 100, thus the observations, indices 0 to 99, will be put into our x_train and observation 100 will be put into y_train
+4. Within the training data we need a x_train (features) and y_train (label), here we have the window size that determines how many previous days observations do we want the current stock price to look up to, I used a window size of 100, thus the observations, indices 0 to 99, will be put into our x_train and index 100 will be put into y_train
 5. The same procedure is performed on the test data as well
 
 ## Model building, training and testing
