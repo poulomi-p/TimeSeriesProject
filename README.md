@@ -24,7 +24,7 @@ Time series forecasting is a supervised learning problem where we try to predict
 3. The model is trained with the data and the label with a batch_size of 64 and 100 epochs
 4. Then the testing data is fed into the model for prediction 
 5. The root mean squared error is calculated on the differrence between what the model predicted and what the actual labels were
-6. The error I got is 1.866, which is really good (<2%)
+6. The error value is 1.866
 
 ## Plotting the output
 * Finally, the training data, test data and the model's predictions are plotted using matplotlib 
